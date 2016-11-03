@@ -1,0 +1,51 @@
+<html>
+<head>
+<title>The Game</title>
+<link rel='stylesheet' type='text/css' href='game.css'/>
+<script src="https://www.google.com/jsapi"></script>
+</head>
+<body>
+    <div id='game'>
+        <div id='setup'>
+            <div id='players'></div>
+            <button id='addPlayerBtn' onclick='_view.AddPlayer()'>+</button>
+            <div id='start'>
+                <button id='startBtn' onclick='_view.Start()'>Start!</button>
+            </div>
+        </div>
+
+        <div id='gameplay' style='display:none'>
+            <div id='roll'>
+                <button id='rollBtn' onclick='_view.Roll()'>Roll!</button>
+            </div>
+            <div id='live' style='display:none'>
+                <div id='result'>
+                    <div id='dice'>
+                        <div id='die1'></div>
+                        <div id='die2'></div>
+                    </div>
+                    <div id='total'></div>
+                </div>
+                <div id='player'></div>
+                <div id='timer'>t</div>
+                <div id='round'>Round <span id='roundNumber'></span></div>
+                <button id='undoBtn' onclick='_view.Undo()'>Undo</button>
+            </div>
+        </div>
+
+        <div id='statistics' style='display:none'>
+            <div id='counts'></div>
+            <div id='times'></div>
+            <div id='data'>
+                <button id='toggleDataBtn' onclick='_view.ToggleData()'></button>
+                <div id='dataDiv' style='display:none'>
+                    <textarea readonly='readonly' id='dataText'></textarea>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src='game.js'></script>
+    <script src='view.js'></script>
+</body>
+</html>

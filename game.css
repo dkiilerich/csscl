@@ -1,0 +1,135 @@
+#players div {
+    float: left;
+}
+
+#game {
+    margin: 0px auto;
+    padding: 4px;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 8vmin;
+    font-weight: bold;
+    text-align: center;
+}
+
+#game button {
+    font-weight: bold;
+    font-size: 8vmin;
+}
+
+#setup input {
+    font-size: 8vmin;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+#setup fieldset {
+    border: none;
+}
+
+#startBtn {
+    padding-left: 10vmin;
+    padding-right: 10vmin;
+}
+
+#players {
+    text-align: left;
+}
+
+#players label {
+    width: 10%
+}
+
+#players input {
+    width: 70%
+}
+
+#addPlayerBtn {
+    margin-left: 10px;
+    padding-left: 2vmin;
+    padding-right: 2vmin;
+}
+
+#start {
+    text-align: center;
+}
+
+#gameplay {
+    width: 50%;
+    float: left;
+}
+
+#gameplay button {
+    width: 100%;
+    min-height: 20%;
+}
+
+#roll button {
+    height: 10%;
+}
+
+#result {
+    margin-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+#dice div {
+    font-size: 10vmin;
+    color: LimeGreen;
+    border: 1px solid #bbb;
+}
+
+#die1 {
+    width: 50%;
+    float: left;
+}
+
+#total {
+    font-size: 20vmin;
+    color: RoyalBlue;
+    border: 1px solid #bbb;
+    border-top: none;
+}
+
+#player {
+    width: 50%;
+    float: left;
+    border: 1px solid #bbb;
+}
+
+#timer {
+    border: 1px solid #bbb;
+}
+
+#round {
+    border: 1px solid #bbb;
+    border-top: none;
+    margin-bottom: 10px;
+}
+
+#statistics {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+#counts {
+    height: 60%;
+}
+
+#times {
+    height: 40%;
+}
+
+#data button {
+    font-size: 4vmin;
+}
+
+#data textarea {
+    width: 90%;
+    margin-top: 10px;
+    border: 1px solid #bbb;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 4vmin;
+    resize: none;
+}

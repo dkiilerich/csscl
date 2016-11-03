@@ -114,7 +114,7 @@ View.prototype.prepareCharts_ = function() {
 
     this.ROLLS_CHART_OPTIONS = {
         title: 'Rolls',
-        fontSize: fontSize * 0.75,
+        fontSize: fontSize * 0.5,
         legend: {position: 'none'},
         chartArea: {left: '20%', height: '100%'},
     };
